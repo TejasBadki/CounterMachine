@@ -28,6 +28,7 @@ function reset(event) {
 
 //  display even/odd message
 function updateDisplay() {
+    message.style.color = '';
     myCount.textContent = c;
     if (c > 0) {
         message.textContent = c % 2 === 0 
