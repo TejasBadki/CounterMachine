@@ -33,8 +33,8 @@ function updateDisplay() {
     myCount.textContent = c;
     if (c > 0) {
         message.textContent = c % 2 === 0 
-            ? "The number is positive and even." 
-            : "The number is positive and odd.";
+            ? "The number is even." 
+            : "The number is odd.";
     } else {
         message.textContent = ""; // Clear the message if not positive
     }
